@@ -4,7 +4,7 @@ namespace Movies.Tests.DTOs
 {
     public class ApiResponseDto
     {
-        [JsonPropertyName("msg")]
+        [JsonPropertyName("msg")]     
         public string Msg { get; set; }
 
         [JsonPropertyName("movie")]
